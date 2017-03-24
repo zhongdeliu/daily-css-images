@@ -1,1 +1,38 @@
-#01 Bear Cub
+38 External Monitor 
+37 Laptop 
+36 Cell Phone 
+35 Elm Logo 
+33 Vue JS Logo 
+34 React Logo 
+32 Angular Logo 
+31 JavaScript Logo 
+30 Bar Graph 
+29 Download 
+28 Cogs 
+27 Icon of Choice² 
+26 Icon of Choice 
+25 Captain America 
+24 Iron Man 
+23 Wolverine 
+22 Green Lantern 
+21 Superman 
+20 Monster of Choice 
+19 Monster of Choice - Gengar 
+18 Vampire 
+17 Zombie
+16 Frankenstein 
+15 Pie 
+14 Cheesecake 
+13 Taco 
+12 Hamburger 
+11 Pizza 
+10 Pencil Jar 
+09 Calendar 
+08 Notepad 
+07 Ruler 
+06 Clock 
+05 Favorite Animated Animal - Struppi 
+04 Tiger 
+03 Beaver 
+02 Elephant 
+01 Bear Cub 

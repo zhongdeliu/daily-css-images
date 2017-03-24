@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{title}}</title>
+  <meta name="description" content="#{{description}}">
+</head>
+<body>
+  {{{ contents }}}
+  
+    {{#each collections.Pens}}
+		{{this.title}}
+		{{#each this}}
+			<p>{{@key}} - {{this}}</p> - {{@index}}
+		{{/each}}
+	{{/each}}
+  
+</body>
+</html>
