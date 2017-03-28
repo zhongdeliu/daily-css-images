@@ -9,11 +9,11 @@
   {{{ contents }}}
   
     {{#each collections.Pens}}
-		{{this.title}}
-		{{#each this}}
-			<p>{{@key}} - {{this}}</p> - {{@index}}
-		{{/each}}
-	{{/each}}
+      <h1>{{{this.title}}}</h1>
+      <a href="{{{this.codepen}}}">{{{this.codepen}}}</a>
+      {{this.path}}
+      <hr>
+    {{/each}}
   
 </body>
 </html>
