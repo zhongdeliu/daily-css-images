@@ -17,16 +17,18 @@ Metalsmith(__dirname)
   .clean(true)
   .use(collections({
 	Pens: {
-		pattern: '?**/index.md'
+		pattern: '?**/index.md',
+    sortBy: 'path',
+    refer: false
 	  }
   }))
   .use(markdown())
   .use(permalinks())
+  .use(debug())
   .use(layouts({
     engine: 'handlebars',
-	default: 'layout.html'
+    default: 'layout.html'
   }))
-  .use(debug())
   .build(function(err, files) {
     if (err) { throw err; }
   });
